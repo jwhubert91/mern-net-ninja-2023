@@ -69,7 +69,7 @@ const WorkoutForm = () => {
         </div>
         <button>Add workout</button>
       </div>
-      {error && <p className="text-red-500 text-center">{error.message}</p>}
+      {error && <div className="error">{error}</div>}
     </form>
   )
 }
